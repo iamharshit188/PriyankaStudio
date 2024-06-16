@@ -1,511 +1,367 @@
 <!DOCTYPE html>
-<html>
+<!--
+  Girly by FreeHTML5.co
+  Twitter: https://twitter.com/fh5co
+  Facebook: https://fb.com/fh5co
+  URL: https://freehtml5.co
+-->
+<html lang="en">
 <head>
-	<title>Priyanka Studio</title>
-		<meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <meta name="format-detection" content="telephone=no">
-	    <meta name="apple-mobile-web-app-capable" content="yes">
-	    <meta name="author" content="">
-	    <meta name="keywords" content="">
-	    <meta name="description" content="">
-	    <link rel="stylesheet" type="text/css" href="fonts/icomoon/icomoon.css">
-
-		<link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
-		<link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css"/>
-		<link rel="stylesheet" type="text/css" href="aos/aos.css">
-		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
-	    <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Girly</title>
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-md  fixed-top maine-menu">
+    <div class="container">
+      <button class="navbar-toggler ml-auto" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse"> <span class="bar1"></span> <span class="bar2"></span> <span class="bar3"></span> </button>
+      <div id="my-nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active"> <a class="nav-link" href="#">Home</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#about" tabindex="-1" aria-disabled="true">About</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#activity" tabindex="-1" aria-disabled="true">Activity</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#portfolio" tabindex="-1" aria-disabled="true">Portfolio</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#testimonial" tabindex="-1" aria-disabled="true">Testimonial</a></li>
+          <li class="nav-item"> <a class="nav-link" href="blog.html" tabindex="-1" aria-disabled="true">Blog</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid fh5co-home-banner">
+    <div class="card"> <img class="card-img" src="assets/img/banner-img.jpg" alt="">
+      <div class="card-img-overlay">
+        <div class="center-text">
+          <h2 class="card-title">A camera is the save button
+          for the mind’s eye</h2>
+          <a href="#" class="btn">
+            <svg width="201" height="51" viewBox="0 0 201 51">
+              <defs>
+                <style>
+                .cls-1 {
+                  fill: none;
+                  stroke-width: 1px;
+                  stroke: url(#linear-gradient);
+                }
+              </style>
+              <linearGradient id="linear-gradient" x1="140.508" y1="50.5" x2="60.492" y2="0.5" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#e90e65"/>
+                <stop offset="1" stop-color="#fff"/>
+              </linearGradient>
+            </defs>
+            <rect id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" x="0.5" y="0.5" width="200" height="50" rx="25" ry="25"/>
+          </svg>
+        Explore</a> </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid fh5co-two-img">
+    <div class="row">
+      <div class="col-sm-6 pr-0 pl-0">
+        <div class="card"> <img class="card-img" src="assets/img/girl1.jpg" alt="">
+          <div class="card-img-overlay"> </div>
+        </div>
+      </div>
+      <div class="col-sm-6 pr-0 pl-0">
+        <div class="card"> <img class="card-img" src="assets/img/girl2.jpg" alt="">
+          <div class="card-img-overlay"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<header id="header">
-	<div class="container">
-		<div class="row">
-			<nav class="navbar navbar-expand-lg col-md-12 padding-small flex-container">
-				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#slide-navbar-collapse" aria-controls="slide-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"><i class="icon icon-navicon"></i></span>
-				</button>
-				<div class="navbar-collapse collapse" id="slide-navbar-collapse">
-				<ul class="navbar-nav list-inline light text-uppercase align-items-baseline">
-					<li class="nav-item active"><a href="#billboard" class="navlink">Home</a></li>
-					<li class="nav-item"><a href="#about">About us</a></li>
-					<li class="nav-item"><a href="#gallery">Gallery</a></li>		
-					<li class="nav-item nav-brand">
-						<a href="index.html"><img src="images/logo.png"></a>
-					</li>
-					<li class="nav-item"><a href="#blog">Blog</a></li>
-					<li class="nav-item"><a href="#gallery">Gallery</a></li>
-					<li class="nav-item"><a href="#contact">Contact us</a></li>
-				</ul>
-				</div><!--navbar-collapse-->
-			</nav>
-		</div>
-	</div>
-</header>
+  <div class="container-fluid fh5co-recent-work">
+    <div class="container contact-pop">
+      <div class="row">
+        <div class="col-md-6  pr-0">
+          <div class="card"> <img class="card-img w-100" src="assets/img/girl3.jpg" alt="">
+            <div class="card-img-overlay"> </div>
+          </div>
+        </div>
+        <div class="col-md-6 pl-0" id="about">
+          <div class="content">
+            <h3>I am Sandra Reigel</h3>
+            <h4>Professional photographer</h4>
+            <hr />
+            <p>Sed do eiusmod tempor incididunt ut labore et dolo magna aliqua. Ut enim ad minim veniam, quis nostd exercitation ullamco laboris nisi ut aliquip ex ea mo consequat. Duis aute irure dolor in reprehenderit in ullamco.</p>
+            <a href="#" class="btn">CONTACT</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="container recent" id="activity">
+        <div class="row">
+          <h2>Recent works</h2>
+          <div class="owl-carousel owl-carousel2 owl-theme">
+            <div>
+              <div class="card"> <img class="card-img" src="assets/img/recent-img1.jpg" alt="">
+                <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+                  <div class="bottom-text">
+                    <h5 class="card-title">Model photography</h5>
+                    <p class="card-text">Digital, Photography</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card"> <img class="card-img" src="assets/img/recent-img2.jpg" alt="">
+                <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+                  <div class="bottom-text">
+                    <h5 class="card-title">Product photography</h5>
+                    <p class="card-text">Digital, Photography</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card"> <img class="card-img" src="assets/img/recent-img3.jpg" alt="">
+                <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+                  <div class="bottom-text">
+                    <h5 class="card-title">Tour and potrait</h5>
+                    <p class="card-text">Digital, Photography</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card"> <img class="card-img" src="assets/img/recent-img4.jpg" alt="">
+                <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+                  <div class="bottom-text">
+                    <h5 class="card-title">Classical photography</h5>
+                    <p class="card-text">Digital, Photography</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid recent fh5co-portfolio" id="portfolio">
+    <div class="container">
+      <h2>Portfolios</h2>
+      <div class="row">
+        <div class="bx bx-1">
+          <div class="card"> <img class="card-img" src="assets/img/portfolio-img1.png" alt="">
+            <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+              <div class="bottom-text">
+                <h5 class="card-title">Natural site</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bx bx-2">
+          <div class="card"> <img class="card-img" src="assets/img/portfolio-img2.png" alt="">
+            <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+              <div class="bottom-text">
+                <h5 class="card-title">Vacation special photography</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bx bx-3">
+          <div class="card"> <img class="card-img" src="assets/img/portfolio-img3.png" alt="">
+            <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+              <div class="bottom-text">
+                <h5 class="card-title">Product photography</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bx bx-4">
+          <div class="card"> <img class="card-img" src="assets/img/portfolio-img4.png" alt="">
+            <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+              <div class="bottom-text">
+                <h5 class="card-title">Historical place shots</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bx bx-middle" style="padding: 0;">
+          <div class="bx bx-5">
+            <div class="card"> <img class="card-img" src="assets/img/portfolio-img5.png" alt="">
+              <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+                <div class="bottom-text">
+                  <h5 class="card-title">Lorem ipsum dolor</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bx bx-6">
+            <div class="card"> <img class="card-img" src="assets/img/portfolio-img6.png" alt="">
+              <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+                <div class="bottom-text">
+                  <h5 class="card-title">Lorem ipsum dolor</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="bx bx-7">
+              <div class="card"> <img class="card-img" src="assets/img/portfolio-img7.png" alt="">
+                <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+                  <div class="bottom-text">
+                    <h5 class="card-title">Portraits</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bx bx-8">
+              <div class="card"> <img class="card-img" src="assets/img/portfolio-img8.png" alt="">
+                <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+                  <div class="bottom-text">
+                    <h5 class="card-title">Wedding photography</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid fh5co-recent-work activity">
+    <div class="container recent">
+      <div class="row">
+        <h2>Activity of the month</h2>
+        <div class="owl-carousel owl-carousel3 owl-theme">
+          <div>
+            <div class="card"> <img class="card-img" src="assets/img/activity-img1.png" alt="">
+              <div class="card-img-overlay">
+                <div class="bottom-text">
+                  <h5 class="card-title">Sed ut perspiciatis unde &nbsp; iste natus error sit volup</h5>
+                  <a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card"> <img class="card-img" src="assets/img/activity-img2.png"  alt="">
+              <div class="card-img-overlay">
+                <div class="bottom-text">
+                  <h5 class="card-title">Sed ut perspiciatis unde &nbsp; iste natus error sit volup</h5>
+                  <a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card"> <img class="card-img" src="assets/img/activity-img3.png" alt="">
+              <div class="card-img-overlay">
+                <div class="bottom-text">
+                  <h5 class="card-title">Sed ut perspiciatis unde &nbsp; iste natus error sit volup</h5>
+                  <a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid fh5co-about-me" id="testimonial">
+    <div id="my-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="card"> <img class="card-img d-block w-100" src="assets/img/about-me-img.jpg" alt="">
+          <div class="card-img-overlay">
+            <h2>People says about me</h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption d-md-block"> <img src="assets/img/quote-icon.png" alt="">
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <div class="carousel-caption d-md-block"> <img src="assets/img/quote-icon.png" alt="">
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption d-md-block"> <img src="assets/img/quote-icon.png" alt="">
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+          </div>
+        </div>
+      </div>
+      <ol class="carousel-indicators">
+        <li data-target="#my-carousel" data-slide-to="0" > <img src="assets/img/about-me-img1.png" alt=""> <span>Sherrie Rose</span> </li>
+        <li class="active" data-target="#my-carousel" data-slide-to="1" aria-current="location"> <img src="assets/img/about-me-img2.png" alt=""> <span>Sherrie Rose</span> </li>
+        <li data-target="#my-carousel" data-slide-to="2"> <img src="assets/img/about-me-img3.png" alt=""> <span>Sherrie Rose</span> </li>
+      </ol>
+    </div>
+  </div>
+  <div class="container-fluid fh5co-insta-feed activity">
+    <div class="container recent">
+      <div class="row mb-5 pb-5">
+        <div class="col-lg-6">
+          <div class="twit-box">
+            <div class="media mb-3"> <img class="align-self-start mr-3 rounded-circle" src="assets/img/twit-girl-img.png" alt="">
+              <div class="media-body">
+                <h5 class="mb-0 mt-3">Sandra reigel</h5>
+                <p>@sandraphotography</p>
+              </div>
+            </div>
+            <p class="text-justify"> “Sed ut perspiciatis unde omnis iste nats error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut. </p>
+            <div class="clearfix"> <a href="#" class="btn btn-primary mt-2 float-right">Follow</a> </div>
+          </div>
+        </div>
+        <div class="col-lg-6 feed-caro">
+          <h2>Instagram feed</h2>
+          <div class="owl-carousel owl-carousel4 owl-theme">
+            <div>
+              <div class="card"> <img class="card-img" src="assets/img/feed-img1.png" alt="">
+                <div class="card-img-overlay"> </div>
+              </div>
+            </div>
+            <div>
+              <div class="card"> <img class="card-img" src="assets/img/feed-img2.png"  alt="">
+                <div class="card-img-overlay"> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="text-center d-block">Find me on social media</h2>
+      <div class="row social-links">
+        <ul class="nav mx-auto">
+          <li class="nav-item"> <a class="nav-link" href="https://www.facebook.com/fh5co"><img src="assets/img/facebook.png" alt=""></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="https://twitter.com/fh5co"><img src="assets/img/twitter.png" alt=""></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#"><img src="assets/img/pinterest.png" alt=""></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#"><img src="assets/img/google-plus.png" alt=""></a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer class="container-fluid p-0 pr-0">
+    <div class="row mr-0 ml-0">
+      <div class="col-md-6 pr-0 pl-0 map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13035.46901327725!2d-80.85396551628644!3d35.234674411422155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a03af474f38f%3A0xf8301daadf5f7670!2sFourth+Ward%2C+Charlotte%2C+NC%2C+USA!5e0!3m2!1sen!2sin!4v1551001218548"  style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-6 content-us">
+        <div class="contact-form" id="contact">
+          <h3 class="text-uppercase">Contact me</h3>
+          <input type="text" class="form-control" placeholder="Your Name">
+          <input type="text" class="form-control" placeholder="Your Email">
+          <textarea class="form-control" placeholder="Your Message"></textarea>
+          <button type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+    <div class="copy pt-4 pb-4">
+      <p><a href="https://freehtml5.co/" target="_blank"> &copy; 2019 Girly</a>  &nbsp;  |  &nbsp; Design by <a href="https://freehtml5.co/" target="_blank">freehtml5.co</a> &nbsp; | &nbsp;  All rights reserved</p>
+    </div>
+  </footer>
 
-<div id="body-wrapper" class="bg-grey">
-
-	<section id="billboard" class="dark-overlay">
-		<div class="slide" style="background: url(images/banner.jpg) no-repeat;background-size: cover;"></div>
-	</section><!--billboard-->
-
-	<section id="about" class="about-us padding-medium bg-sand">
-		<div class="container">
-			<div class="row">
-				<div class="text-content text-center col-md-8">
-					<div class="section-header">
-						<h2 class="section-title pb-4 text-uppercase">We Capture Your Special Moments</h2>
-						
-						<p>Photography that captures connections and emotions that you celebrate on your wedding day. My images explores your love for each other and the joy of sharing it with your family and friends. My goal is to create beautiful and emotive your love for each other and the joy of sharing it with your family and friends photography; an image gallery for you to treasure.</p>
-						
-						<p>Tell me your plans, let you wedding day adventure UNFURL with me. I do believe its a collaboration, so let me in on what makes your love work, for me to give let me in on what makes it back to you as a photograph.</p>
-					</div>
-
-					<figure>
-						<img src="images/dark-logo.png" alt="logo">
-					</figure>
-				</div><!--content-->
-			</div>
-		</div>
-	</section>
-
-	<section id="portfolios" class="portfolios fancyboxeffect mb-6">	
-		<div class="container">
-			<div class="row">
-				<div class="section-header text-center">
-					<h2 class="section-title pb-4 text-uppercase">~ Portfolios ~</h2>
-				</div>
-				<div class="portfolios-content d-flex flex-wrap">
-					<div class="content col-md-4 mb-3">
-						<a class="image-link js-scroll down-enter" rel="gallery" href="images/model1.jpg">
-							<img src="images/model1.jpg" alt="model" class="portoImg">
-							<div class="overlay-content text-center light">
-								<h3 class="title">Portraits</h3>
-								<span>View More</span>
-							</div>
-						</a>
-					</div><!--content-->
-
-					<div class="content col-md-4 mb-3">
-						<a class="image-link js-scroll down-enter" rel="gallery" href="images/model2.jpg">
-							<img src="images/model2.jpg" alt="model" class="portoImg">
-							<div class="overlay-content text-center light">
-								<h3 class="title">Wedding</h3>
-								<span>View More</span>
-							</div>
-						</a>
-					</div><!--content-->
-
-					<div class="content col-md-4">
-						<a class="image-link js-scroll down-enter" rel="gallery" href="images/model3.jpg">
-							<img src="images/model3.jpg" alt="model" class="portoImg">
-							<div class="overlay-content text-center light">
-								<h3 class="title">Wedding</h3>
-								<span>View More</span>
-							</div>
-						</a>
-					</div><!--content-->				
-				</div>
-			</div>
-				<div class="pix_btn text-center">
-					<button class="btn-hvr-effects5 mt-5"><span>View Portfolio</span></button> 
-				</div>	
-		</div>
-	</section>
-
-	<section id="services" class="services padding-large darkest dark-overlay" style="background: url(images/servicebg.jpg) no-repeat; background-size: cover; filter: grayscale(100%);">
-		<div class="container">
-			<div class="row">
-				<div class="section-header text-center light">
-					<h2 class="section-title text-uppercase pb-4">~ Services ~</h2>
-				</div>
-				<div class="text-content light text-center color-secondary col-md-5">
-					<p>Photography that captures connections and emotions that you celebrate on your wedding day.Photography that captures connections and emotions that you celebrate on your wedding day. </p>
-					<div class="light-btn newsletter-button d-flex justify-content-center padding-small">
-						<input type="text" name="Subscribe" placeholder="Your Email Address">			
-						<div class="pix_btn text-center">
-							<button class="btn-hvr-effects6"><span class="color-primary text-uppercase">Send it</span></button> 
-						</div>	
-					</div>
-				</div><!--text-content-->
-				<div class="content-row text-center light d-flex flex-wrap">
-					<div class="content-block col-md-4">
-						<h3>Photo Sessions</h3>
-						<p>Photography that captures connections and emotions that you celebrate on your wedding day.</p>
-					</div><!--content-->
-					<div class="content-block col-md-4">
-						<h3>Occasions</h3>
-						<p>Photography that captures connections and emotions that you celebrate on your wedding day.</p>
-					</div><!--content-->
-					<div class="content-block col-md-4">
-						<h3>Photo Editing</h3>
-						<p>Photography that captures connections and emotions that you celebrate on your wedding day.</p>
-					</div><!--content-->
-				</div><!--services-content-->
-			</div>
-		</div>
-	</section>
-
-	<section id="testimonials" class="testimonials-wrap padding-medium">
-		<div class="container">
-			<div class="row">
-				<div class="reviews-content col-md-12 text-center">
-					<div class="section-header text-center">
-						<h2 class="section-title text-uppercase">~ Testimonials ~</h2>
-					</div>
-
-					<div class="testimonial-slider">
-						<div class="testimonials-inner text-center pt-50">
-							<img src="images/couple.jpg" alt="reviewer" class="reviewImg img-circle align-center">
-							<p>Amazing photographer. Jack was very easy to work with and made us feel really ease. The finished product was exactly what we envisioned. He listened to exactly what we wanted, and I never felt like I was being made to pose - the whole process was very natural. We were able to go and enjoy our night with the guests and Jack took care of the rest</p>
-							<div class="testimonial-author text-uppercase">
-								<strong class="name d-flex justify-content-center mt-3">"Austin & Caterine"</strong>
-							</div>
-						</div><!--reviews-info-->
-
-						<div class="testimonials-inner pt-50">
-							<img src="images/couple.jpg" alt="reviewer" class="reviewImg img-circle align-center">
-							<p>He was very easy to work with and made us feel really ease. The finished product was exactly what we envisioned. He listened to exactly what we wanted, and I never felt like I was being made to pose - the whole process was very natural. We were able to go and enjoy our night with the guests and Jack took care of the rest</p>
-							<div class="testimonial-author text-uppercase">
-								<strong class="name d-flex justify-content-center mt-3">"Simona"</strong>
-							</div>
-						</div><!--reviews-info-->
-
-						<div class="testimonials-inner pt-50">
-							<img src="images/couple.jpg" alt="reviewer" class="reviewImg img-circle align-center">
-							<p>Photography that captures connections and emotions that you celebrate on your wedding day.</p>
-							<div class="testimonial-author text-uppercase">
-								<strong class="name d-flex justify-content-center mt-3">"Jean Morgan"</strong>
-							</div>
-						</div><!--reviews-info-->
-
-					</div><!--testimonial-slider-->				
-				</div><!--col-md-12-->
-			</div>
-		</div>
-	</section>
-
-	<section id="gallery" class="gallery-wrap padding-medium">
-		<div class="section-header text-center">
-			<h2 class="section-title text-uppercase pb-4">~ Gallery ~</h2>
-		</div>
-		<div class="gallery-content">
-
-			<div class="gallery-row">
-				
-				<div class="content col-md-4 pb-4">
-					<figure>
-						<a class="image-link" href="images/largegalleryimg1.jpg">
-							<img src="images/galleryimg1.jpg" alt="model" class="galleryImg">
-							<div class="overlay">
-								<i class="icon icon-search-plus"></i>
-							</div><!--imgOverlay-->
-						</a>
-					</figure>
-				</div><!--content-->
-				<div class="content col-md-4 pb-4">
-					<figure>
-						<a class="image-link" href="images/largegalleryimg2.jpg">
-							<img src="images/galleryimg2.jpg" alt="model" class="galleryImg">
-							<div class="overlay">
-								<i class="icon icon-search-plus"></i>
-							</div><!--imgOverlay-->
-						</a>
-					</figure>
-				</div><!--content-->
-				<div class="content col-md-4 pb-4">
-					<figure>
-						<a class="image-link" href="images/largegalleryimg3.jpg">
-							<img src="images/galleryimg3.jpg" alt="model" class="galleryImg">
-							<div class="overlay">
-								<i class="icon icon-search-plus"></i>
-							</div><!--imgOverlay-->
-						</a>
-					</figure>
-				</div><!--content-->
-
-			</div>
-
-			<div class="gallery-row">
-				<div class="content col-md-4 pb-4">
-					<figure>
-						<a class="image-link" href="images/largegalleryimg4.jpg">
-							<img src="images/galleryimg4.jpg" alt="model" class="galleryImg">
-							<div class="overlay">
-								<i class="icon icon-search-plus"></i>
-							</div><!--imgOverlay-->
-						</a>
-					</figure>
-				</div><!--content-->
-				<div class="content col-md-4 pb-4">
-					<figure>
-						<a class="image-link" href="images/largegalleryimg5.jpg">
-							<img src="images/galleryimg5.jpg" alt="model" class="galleryImg">
-							<div class="overlay">
-								<i class="icon icon-search-plus"></i>
-							</div><!--imgOverlay-->
-						</a>
-					</figure>
-				</div><!--content-->
-				<div class="content col-md-4 pb-4">
-					<figure>
-						<a class="image-link" href="images/largegalleryimg6.jpg">
-							<img src="images/galleryimg6.jpg" alt="model" class="galleryImg">
-							<div class="overlay">
-								<i class="icon icon-search-plus"></i>
-							</div><!--imgOverlay-->
-						</a>
-					</figure>
-				</div><!--content-->
-			</div>
-
-			<div class="gallery-row">
-				<div class="content col-md-4 pb-4">
-					<figure>
-						<a class="image-link" href="images/largegalleryimg1.jpg">
-							<img src="images/galleryimg1.jpg" alt="model" class="galleryImg">
-							<div class="overlay">
-								<i class="icon icon-search-plus"></i>
-							</div><!--imgOverlay-->
-						</a>
-					</figure>
-				</div><!--content-->
-				<div class="content col-md-4 pb-4">
-					<figure>
-						<a class="image-link" href="images/largegalleryimg2.jpg">
-							<img src="images/galleryimg2.jpg" alt="model" class="galleryImg">
-							<div class="overlay">
-								<i class="icon icon-search-plus"></i>
-							</div><!--imgOverlay-->
-						</a>
-					</figure>
-				</div><!--content-->
-				<div class="content col-md-4 pb-4">
-					<figure>
-						<a class="image-link" href="images/largegalleryimg3.jpg">
-							<img src="images/galleryimg3.jpg" alt="model" class="galleryImg">
-							<div class="overlay">
-								<i class="icon icon-search-plus"></i>
-							</div><!--imgOverlay-->
-						</a>
-					</figure>
-				</div><!--content-->
-			</div>
-
-		</div><!--gallery-content-->
-		
-		<div class="pix_btn text-center">
-			<button class="btn-hvr-effects5 mt-5"><span>View Gallery</span></button> 
-		</div>	
-
-	</section>
-
-	<section id="blog" class="latest-blogs padding-large light">
-
-		<div class="bg" data-scroll>
-
-			<div class="blog-content">
-				
-				<div class="container">
-					<div class="row">
-
-						<div class="post-item col-md-6 padding-large">
-						
-							<div class="content">
-								<h2 class="post-title">Eloping in Mountainous Terrain</h2>
-								<p>Imagine spending the day hiking with your best friend, in an amazing landscape,to make vows of marriage to one another.</p>
-								<div class="meta-tags">
-									<span class="meta-date">Simon</span>
-									<em class="meta-date">May 14, 2020</em>
-								</div>
-							</div>
-							<div class="pix_btn">
-								<button class="btn-hvr-effects5 mt-5"><span>Read More</span></button> 
-							</div>
-						</div><!--post-item-->
-
-					</div>
-				</div>
-				
-			</div>
-			
-
-			<div class="bg-image" style="background: url(images/blogbg.jpg) no-repeat; background-size: cover;">
-		</div>
-	</section>
-
-	
-	<section id="contact" class="contact-information">
-		<div class="container">
-			<div class="row">
-				<form class="contact-form d-flex flex-wrap mt-4 col-md-12 dark">
-					<div class="text-input flex-container">
-						<div class="inputContainer col-md-6 pl-0 pr-0">
-							<input type="text" name="name" placeholder="First Name" class="name mb-3">
-							<i class="icon icon-user"></i>
-						</div>
-						<div class="inputContainer col-md-6 pr-0">
-							<input type="text" name="name" placeholder="Last Name" class="name mb-3">
-							<i class="icon icon-user"></i>
-						</div>
-					</div><!--text-input-->
-					<div class="text-input flex-container">
-						<div class="inputContainer col-md-6 pl-0 pr-0">
-							<input type="text" name="E-mail" placeholder="Your E-mail Address" class="mr-3 mb-3">
-							<i class="icon icon-envelope"></i>
-						</div>
-						<div class="inputContainer col-md-6 pr-0">
-							<input type="text" name="Subject" placeholder="Subject" class="mb-3">
-							<i class="icon icon-phone"></i>
-						</div>
-					</div>
-					<div class="inputContainer col-md-12 pl-0 pr-0">
-						<input type="text" name="Subject" placeholder="Subject" class="mb-3">
-						<i class="icon icon-edit"></i>
-					</div>
-					<div class="inputContainer col-md-12 pl-0 pr-0">
-						<textarea placeholder="Message" style="height: 150px;"></textarea>
-						<i class="icon icon-edit"></i>
-					</div>
-				</form>
-			</div>
-		</div><!--container-->		
-		<div class="pix_btn text-center">
-			<button class="btn-hvr-effects5 mt-5"><span>Send it</span></button> 
-		</div>
-	</section>
-
-	<section class="instagram padding-medium">
-		<div class="container">
-			<div class="row">
-			<div class="section-header text-center">
-				<h2 class="section-title text-uppercase pb-4">instagram</h2>
-			</div>
-				<div class="col-md-2 text-center mb-3">
-					<figure>
-						<a href="#">
-							<img src="images/galleryimg1.jpg" alt="instagram">
-						</a>
-					</figure>
-				</div>
-				<div class="col-md-2 text-center mb-3">
-					<figure>
-						<a href="#">
-							<img src="images/galleryimg2.jpg" alt="instagram">
-						</a>
-					</figure>
-				</div>
-				<div class="col-md-2 text-center mb-3">
-					<figure>
-						<a href="#">
-							<img src="images/galleryimg3.jpg" alt="instagram">
-						</a>
-					</figure>
-				</div>
-				<div class="col-md-2 text-center mb-3">
-					<figure>
-						<a href="#">
-							<img src="images/galleryimg4.jpg" alt="instagram">
-						</a>
-					</figure>
-				</div>
-				<div class="col-md-2 text-center mb-3">
-					<figure>
-						<a href="#">
-							<img src="images/galleryimg5.jpg" alt="instagram">
-						</a>
-					</figure>
-				</div>
-				<div class="col-md-2 text-center mb-3">
-					<figure>
-						<a href="#">
-							<img src="images/galleryimg6.jpg" alt="instagram">
-						</a>
-					</figure>
-				</div>
-			</div>
-		</div>	
-	</section>
-
-	<footer id="footer">
-		<div class="container">
-			<div class="row">
-				<div class="flex-container flex-wrap">
-
-				<div class="col-md-4 widget-menu">
-					<div class="footer-menu d-flex justify-content-center">
-						<ul class="list-unstyled mr-5 text-uppercase">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Portfolio</a></li>
-						</ul>
-						<ul class="list-unstyled text-uppercase">
-							<li><a href="#">Blog</a></li>
-							<li><a href="#">Gallery</a></li>
-							<li><a href="#">Contact</a></li>
-						</ul>
-					</div>
-				</div><!--col-md-4-->
-
-				<div class="col-md-4 widget-menu footer-social-logo text-center">
-					<div class="footer-logo text-center mb-3">
-						<img src="images/footer-logo.png" class="mb-3">
-					</div>	
-					<div class="social-links">
-						<ul class="list-unstyled d-flex">
-							<li class="mr-3"><a href="#"><i class="icon icon-facebook m-1"></i></a></li>
-							<li class="mr-3"><a href="#"><i class="icon icon-twitter m-1"></i></a></li>
-							<li><a href="#"><i class="icon icon-youtube m-1"></i></a></li>
-						</ul>
-					</div><!--social-links-->
-				</div><!--col-md-4-->
-
-				<div class="col-md-4 widget-menu">
-					<div class="footer-contact">
-						<h5 class="widget-title text-uppercase">Stay in touch</h5>
-						<ul class="list-unstyled">
-							<li><strong>Capturer Photography</strong></li>
-							<li>Sandviksveien 68</li>
-							<li>N5035 Bergen</li>
-							<li>Norway</li>
-							<li><a href="#">hello@yourcompany.com</a></li>
-						</ul>
-					</div>
-				</div><!--social-links-->
-
-				</div><!--flex-container-->
-
-			</div>
-		</div>
-	</footer>
-
-	<div class="footer-bottom bg-mine-shaft">
-		<div class="container">
-			<div class="padding-xsmall text-center">
-				<div class="copyright color-secondary">
-					<p class="mb-0">© 2022 Capturer. All Rights Reserved. Template by <a href="https://www.templatesjungle.com/" target="_blank">TemplatesJungle</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-</div> 
-
-	<script src="js/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
-	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-
-
-	<script type="text/javascript" src="slick/slick/slick.min.js"></script>
-	
-	<script type="text/javascript" src="aos/aos.js"></script>
-	<!-- <script type="text/javascript" src="js/locomotive-scroll.min.js"></script> -->
-
-	<script type="text/javascript" src="js/plugins.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+  <script src="assets/js/jquery-3.3.1.slim.min.js"></script> 
+  <script src="assets/js/popper.min.js" ></script> 
+  <script src="assets/js/bootstrap.min.js"></script> 
+  <script src="assets/js/owl.carousel.min.js"></script> 
+  <script src="assets/js/main.js"></script>
 
 </body>
 </html>
